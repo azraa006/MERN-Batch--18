@@ -17,13 +17,17 @@
 
             </div>
             <div class="grid col-span-2">
-                <ul class="flex flex-row gap-5 justify-end items-center pr-2">
+                <ul class=" hidden lg:flex  flex-row gap-5 justify-end items-center pr-2  ">
                     <li class="font-[Roboto] text-[#323f4b] text-[16px]">Why Choose us?</li>
                     <li class="font-[Roboto] text-[#323f4b] text-[16px]">Explore Menu</li>
                     <li class="font-[Roboto] text-[#323f4b] text-[16px]">Explore Menu</li>
                     <li class="font-[Roboto] text-[#323f4b] text-[16px]">Delivery and Payment</li>
                     <li class="font-[Roboto] text-[#323f4b] text-[16px]">Follow us</li>
                 </ul>
+                <div class=" flex lg:hidden flex-row justify-end items-center ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#323f4b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu"><path d="M4 12h16"/><path d="M4 18h16"/><path d="M4 6h16"/></svg>
+
+                </div>
 
             </div>
 
@@ -50,15 +54,17 @@
 
     <!-- Why choose us start -->
     <section class="2xl:container mx-auto py-10  ">
-        <div class="w-[75%] mx-auto flex flex-col gap-4 ">
+        
+            <div class="w-[75%] mx-auto flex flex-col gap-4  ">
             <div>
                 <h1 class="text-[#183b56] font-[Roboto] text-[28px] font-bold">Why Choose Us?</h1>
                 <p class="text-[#5a7184] font-[Roboto] text-[16px]">We use both original recipes and classic versions of famous food items.</p>
             </div>
-            <div class="flex flex-row gap-5 ">
+          
+            <div class=" flex flex-row gap-5 flex-wrap">
 
 
-                <div class="flex flex-col gap-3  border border-black items-center rounded-xl px-3 py-3 w-[345px]">
+                <div class="flex flex-1 flex-col gap-3  border border-black items-center rounded-xl px-3 py-3 w-[345px]">
                     <div>
                         <img src="https://ik.imagekit.io/azraa/Food%20Store/food-serve.png?updatedAt=1751086831281" alt="platter pic"/>
                     </div>
@@ -70,7 +76,7 @@
 
 
 
-                <div class="flex flex-col gap-3  border border-black items-center rounded-xl  px-3 py-3 w-[345px]">
+                <div class="flex flex-1 flex-col gap-3  border border-black items-center rounded-xl  px-3 py-3 w-[345px]">
                     <div>
                         <img src="https://ik.imagekit.io/azraa/Food%20Store/fruits-img.png?updatedAt=1751086742750" alt="platter pic"/>
                     </div>
@@ -82,7 +88,7 @@
 
 
 
-                <div class="flex flex-col gap-3  border border-black items-center rounded-xl  px-3 py-3 w-[345px]">
+                <div class="flex flex-1 flex-col gap-3  border border-black items-center rounded-xl  px-3 py-3 w-[345px]">
                     <div>
                         <img src="https://ik.imagekit.io/azraa/Food%20Store/offers-img.png?updatedAt=1751086741305" alt="platter pic"/>
                     </div>
@@ -91,12 +97,14 @@
                         <p class="text-[#7b8794] font-[Roboto] text-[16px] text-center">Food Coupons & Offers upto <b class="text-[#323f4b]">50% OFF</b> and Exclusive Promo Codes on All Online Food Orders.</p>
                     </div>
                 </div>
-
             </div>
-            
-            
 
-        </div>
+            
+            
+            
+            
+            </div>
+        
     </section>
     <!-- Why choose us end -->
 
@@ -106,7 +114,7 @@
         <div class="w-[75%] mx-auto flex flex-col gap-7">
             <div > <h1 class="font-[Roboto] text-[#183b56] font-bold text-[28px]">Explore Menu</h1>
             </div>
-            <div class=" grid grid-cols-2 lg:grid-cols-4  space-x-9 space-y-9 ">
+            <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-5 ">
                 
 
                  <div class="flex flex-col gap-5 border border-black rounded-3xl shadow-lg ">
@@ -216,7 +224,7 @@
 
     <!-- fresh menu start -->
      <section class="2xl:container mx-auto py-20 " >
-        <div class="w-[75%] mx-auto grid grid-cols-3 " >
+        <div class="w-[75%] mx-auto grid lg:grid-cols-3  " >
            
             <div class=" grid col-span-1 w-[270px] pl-10">
                 <img src="https://ik.imagekit.io/azraa/Food%20Store/healthy-food-plate-img.png?updatedAt=1751086730353" alt="food pic"/>
@@ -235,7 +243,7 @@
 
     <!-- Delivery and payment section start -->
      <section class="2xl:container mx-auto py-20 ">
-        <div class="w-[75%] mx-auto grid grid-cols-3">
+        <div class="w-[75%] mx-auto grid lg:grid-cols-3 ">
 
               
              <div class=" grid col-span-2 ">
