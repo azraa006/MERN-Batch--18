@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat_Bulb</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex flex-col justify-center items-center  ">
+        <div>
+            <img src="https://ik.imagekit.io/azraa/bulb-go-on-img.png?updatedAt=1752225741487" alt="bulb-on" class="w-[260px] h-[300px]" id="bulb"/>
+        </div>
+        <div>
+            <img src="https://ik.imagekit.io/azraa/cat-img%20on.png?updatedAt=1752225713365" alt="cat-there" class="w-[260px]" id="cat"/>
+        </div>
+        <div class="space-x-8  space-y-8 ">
+            <button class="text-2xl border border-black py-2 px-8" id="on">ON</button>
+            <button class="text-2xl border border-black py-2 px-8" id="off">OFF</button>
+        </div>
+    </div>
+    <script>
+        var onBtn=document.getElementById("on");
+         var offBtn=document.getElementById("off");
+
+
+
+         onBtn.addEventListener("click" , () => {
+            bulb.src="https://ik.imagekit.io/azraa/bulb-go-on-img.png?updatedAt=1752225741487";
+            cat.src="https://ik.imagekit.io/azraa/cat-img%20on.png?updatedAt=1752225713365";
+
+
+         });
+         offBtn.addEventListener("click" , () => {
+            bulb.src="https://ik.imagekit.io/azraa/bulb-go-off-img.png?updatedAt=1752225740949";
+            cat.src="https://ik.imagekit.io/azraa/cat-eyes-img.png?updatedAt=1752225741039";
+
+
+         });
+    </script>
+
+    
+
+</body>
+</html>
